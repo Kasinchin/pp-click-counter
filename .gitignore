@@ -26,6 +26,18 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# ไฟล์ข้อมูลส่วนตัว/รันไทม์ (ไม่เอาขึ้น เดี๋ยวข้อมูลลูกค้าหลุด)
+*.json
+!version.json
+!config.example.json
+
+# ไฟล์ชั่วคราวตอนอัปเดต
+update.bat
+*.tmp
+
+# ไฟล์ Log หรือ Error
+*.log
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
