@@ -13,11 +13,6 @@ from PIL import Image, ImageDraw
 import win32gui 
 import win32process
 
-# --- App Info ---
-APP_NAME = "ClickCounterApp"
-VERSION = "v260116002"
-UPDATE_CHECK_URL = "" 
-
 # --- Path Management ---
 def get_app_data_path(filename):
     app_data = os.getenv('LOCALAPPDATA')
