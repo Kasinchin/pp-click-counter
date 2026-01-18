@@ -385,7 +385,7 @@ del "%~f0"
             color = "#3498db"
         else:
             items = [
-                "Clients Booked", "5-Star Review", 
+                "Client Booked", "5-Star Review", 
                 "Partnership Finalized", "Catalogs Finalized"
             ]
             color = "#27ae60"
