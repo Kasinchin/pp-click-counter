@@ -378,15 +378,15 @@ del "%~f0"
         items = []
         if menu_name == "Actions":
             items = [
-                "Clients called", "Clients discussed on WhatsApp", 
-                "Potential partners contacted", "Updated teasers", 
-                "Updated catalogs", "Events"
+                "Clients Called", "Clients Discussed on WhatsApp", 
+                "Potential Partners Contacted", "Updated Teasers", 
+                "Updated Catalogs", "Events"
             ]
             color = "#3498db"
         else:
             items = [
-                "Clients booked", "5-star review", 
-                "Partnership finalized", "catalogs finalized"
+                "Clients Booked", "5-Star Review", 
+                "Partnership Finalized", "Catalogs Finalized"
             ]
             color = "#27ae60"
 
@@ -468,7 +468,7 @@ del "%~f0"
             "menu": menu,
             "action": action,
             "counts": count_val, # Send 1 or -1
-            "details": ""
+            "details": ""   
         }
         
         self.blink_effect(count_val)
